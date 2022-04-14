@@ -7,7 +7,7 @@ DynamicEffects is a Roblox module that allows developers to quickly create envir
 DynamicEffects is an Object-Oriented System.  These classes are main controls, which act as effect "groups".  These groups can store effect sets, or code explaining how to render in an effect.  Each "group" may only display one effect set at a time, but DynamicEffects allows for more than one group to exist.
 
 ## Usage
-As mentioned before, DynamicEffects is a Roblox module for scripting.  Below is the documented usage code.
+As mentioned before, DynamicEffects is a Roblox module for scripting.  This module can be installed from the toolbox [here](https://www.roblox.com/library/9365160802/DynamicEffects).  Below is the documented usage code.
 
 **Notice: any functions / variables starting with an _ should not be used externally.  Those are internal methods for DynamicEffects.**
 
