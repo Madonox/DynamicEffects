@@ -1,3 +1,4 @@
+
 # DynamicEffects
 
 ## What is DynamicEffects?
@@ -37,6 +38,11 @@ Playing effects is quite a simple system, where you simply call the `PlayEffect`
 effectGroup:PlayEffect("effect name here") -- This will play the effect group defined above.
 effectGroup:PlayEffect("some different effect") -- This will stop the effect that is playing above, then play this effect.
 ```
+You can also play an effect via tweens, this can be done with the `PlayEffectWithTween` method.  This effect does take one extra argument, which simply specifies the tween configuration.
+```lua
+effectGroup:PlayEffectWithTween("effect name here",TweenInfo.new(0.5,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut)
+```
+
 ### Stopping effects:
 If you wish to stop an effect without playing another one, you can just call the `StopEffects` method.
 ```lua
